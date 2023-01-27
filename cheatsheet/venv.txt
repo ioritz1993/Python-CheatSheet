@@ -1,0 +1,8 @@
+Create virtual environment
+python -m venv .\environment\   
+
+Activate virtual environment in Windows
+.\environment\Scripts\activate
+
+Activate virtual environment in Linux
+source ruta/al/entorno/virtual/bin/activate

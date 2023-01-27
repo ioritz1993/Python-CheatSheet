@@ -1,0 +1,18 @@
+Export environment
+conda env export > environment.yml
+
+Import environment
+conda env create -f environment.yml
+
+List conda environments
+conda env list
+
+Create environment
+conda create -n EntornoPrueba
+
+Activate environment
+conda activate EntornoPrueba
+
+Create environment expressly for spyder
+conda create -n spyder-cf -c conda-forge spyder
+

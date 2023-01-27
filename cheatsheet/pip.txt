@@ -1,0 +1,16 @@
+Update pip
+=========================================
+Update pip in Windows
+python -m pip install -U pip
+
+Update pip in Linux or Mac
+pip install -U pip
+
+
+Import/Export requirements project
+=========================================
+Export project requirements (run within the virtual environment of the project)
+pip freeze > requirements.txt
+
+Import project requirements (run in the virtual environment we want to import)
+pip install -r requirements.txt
